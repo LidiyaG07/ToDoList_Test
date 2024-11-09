@@ -1,0 +1,35 @@
+*{padding: 0px; margin: 0px; border: 0px}
+*::before, *::after {box-sizing: border-box}
+
+
+
+
+html, body {
+	padding: 15px;
+}
+.container{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: centr;
+	align-items: centr;
+	align-content: centr;
+	height: 100%;
+	
+	background-color: gray;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+input {
+	padding: 3px;
+	border-radius: 5px;
+}
+
+button {
+	padding: 3px;
+	border-radius: 5px;
+}
